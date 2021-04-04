@@ -48,8 +48,6 @@ CRGBPalette16  currentPalette;
 TBlendType     currentBlending;
 bool           changerPalette;
 
-//static uint8_t startIndex = 0; 
-
 bool onPowerState(const String &deviceId, bool &state) {
   powerState = state;
   if (state) {
